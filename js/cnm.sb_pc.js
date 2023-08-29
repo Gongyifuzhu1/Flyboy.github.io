@@ -1,23 +1,13 @@
-// 进入页面就执行
+
 window.onload=function()
 {
-	// 展示框架宽度-显示
-	// var conw = $("#content").width();
-	// $("#cright").css({"width":(conw-30)+"px"});
-	
-	// 判断是否有操作 并 执行大小宽度的变化$("#cright")
-	// $(window).resize(function()
-	// {
-	// 	conw = $("#content").width();
-	// 	$("#content").css({"height":(conw*0.5)+"px"});
-	// 	$("#cright").css({"width":(conw-30)+"px"});
-	// });
+
 	
 	// 文字输入特效
 	let divTyping = document.getElementById('etext')
 	let i = 0,
 		timer = 0,
-		str = '欢迎来到，GY工作室。'
+		str = '欢迎来到，Flyboy官网。'
 	function typing()
 	{
 		if (i <= str.length)
